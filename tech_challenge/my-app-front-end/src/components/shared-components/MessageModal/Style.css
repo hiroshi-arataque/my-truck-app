@@ -1,0 +1,12 @@
+.Table-cell-modal-message {
+    position: absolute;
+    z-index: 1000;
+    width: 60%;
+    top: 8%;
+    right: 20%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #cccccd;
+}

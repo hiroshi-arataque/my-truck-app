@@ -1,0 +1,10 @@
+.Table-container {
+    margin: 0 30px;
+    min-width: 1024px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    max-height: 700px;
+}

@@ -1,0 +1,50 @@
+.Table-column {
+    padding: 5px;
+    min-width: 200px;
+    text-align: left;
+    border: solid 1px #ddd;
+    display: flex;
+    background: #fff;
+    justify-content: space-evenly;
+}
+
+.Table-column-cell {
+    border-top: unset;
+    border-right: unset;
+    margin-right: 1px;
+}
+
+.Table-column-cell-last {
+    border-top: unset;
+}
+
+.Table-cell-icon {
+    height: 24px;
+    cursor: pointer;
+}
+
+.Table-cell-modal-update {
+    position: absolute;
+    z-index: 1000;
+    width: 85%;
+    top: 3%;
+    right: 9%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #cccccd;
+}
+
+.Table-cell-modal-delete {
+    position: absolute;
+    z-index: 1000;
+    width: 43%;
+    top: 10%;
+    right: 30%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #cccccd;
+}

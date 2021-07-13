@@ -1,0 +1,22 @@
+.Table-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: -webkit-sticky; 
+    position: sticky; 
+    top: 0px; 
+    z-index: 100;
+    cursor: pointer;
+}
+
+.Table-heading-cell {
+    border-left: unset;
+}
+
+.Table-header-icon {
+    height: 15px;
+    padding: 5px;
+}

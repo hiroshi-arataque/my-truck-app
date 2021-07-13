@@ -1,0 +1,67 @@
+.Table-list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.Table-list-button{
+    width: 150px;
+    height:30px;
+    border: 1px solid #cccccd;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.Truck-list-modal-container{
+    background: #778899;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.Truck-list-modal{
+    position: absolute;
+    z-index: 999;
+    height: 100%;
+    width: 45%;
+    top: 20%;
+    right: 28%;
+}
+
+.Modal-button-close {
+    position: absolute;
+    z-index: 5;
+    top: 10px;
+    right: 10px;
+    text-indent: -5000px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.Modal-button-close::after, .Modal-button-close::before {
+    content: "";
+    position: absolute;
+    z-index: 5;
+    background: #4b4b4d;
+    top: 50%;
+    left: 50%;
+    text-indent: -5000px;
+    width: 15px;
+    height: 1.5px;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+
+.Modal-button-close::after {
+    width: 1.5px;
+    height: 15px;
+    transform: translate(-50%,-50%) rotate(-135deg);
+}
